@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Client01</title>
+</head>
+<body>
+    <ul id="msg"></ul>
+    <input type="text" id="input" />
+    <input type="button" value="Send" id="btn" />
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script>
+        $(document).ready(function () {
+            var hubProxy = $.connection['TjSanshaoHub'];
+
+            hubProxy.client.hello = function (msg) {
+                $("#msg").append('<li>' + msg + '</li>');
+            }
+
+            $.connection.hub.start().done(function () {
+                $("#btn").click(function () {
+                    hubProxy.server.hello($("#input").val());
+                    console.log("wocao");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
