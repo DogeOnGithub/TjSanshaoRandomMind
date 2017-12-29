@@ -13,9 +13,11 @@ namespace RandomMind
             mailMsg.To.Add(new MailAddress("1485848825@qq.com", "TjSanshao2"));
             mailMsg.Subject = "mail test";
             mailMsg.Body = "test";
-            SmtpClient client = new SmtpClient("smtp.qq.com");
-            client.EnableSsl = true;
-            client.Credentials = new NetworkCredential("1305705188", "gdvwppuvfciciaag");
+            SmtpClient client = new SmtpClient("smtp.qq.com")
+            {
+                EnableSsl = true,
+                Credentials = new NetworkCredential("1305705188", "gdvwppuvfciciaag")
+            };
             client.Send(mailMsg);
             Console.ReadKey();
         }
