@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBindTest", "ModelBindT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldDemo", "YieldDemo\YieldDemo.csproj", "{866A83B1-B458-47FD-87FF-F01E5A2732C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOutInDemo", "TOutInDemo\TOutInDemo.csproj", "{854AF33A-CF4B-4215-A0D6-3D864A02BB81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{866A83B1-B458-47FD-87FF-F01E5A2732C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{866A83B1-B458-47FD-87FF-F01E5A2732C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{866A83B1-B458-47FD-87FF-F01E5A2732C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
