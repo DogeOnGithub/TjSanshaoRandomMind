@@ -19,7 +19,6 @@ namespace TOutInDemo
             Action<Derived> derivedAction = action;
             derivedAction(new Derived());
             Console.ReadKey();
-
         }
     }
 
