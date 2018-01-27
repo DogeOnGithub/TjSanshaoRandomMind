@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailDemo", "RandomMind\MailDemo.csproj", "{98FCCE45-4CCB-43F0-8162-F7D9B7E15796}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldDemo", "YieldDemo\YieldDemo.csproj", "{866A83B1-B458-47FD-87FF-F01E5A2732C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOutInDemo", "TOutInDemo\TOutInDemo.csproj", "{854AF33A-CF4B-4215-A0D6-3D864A02BB81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDemo", "ClassDemo\ClassDemo.csproj", "{4FBEF040-2CCE-4903-B20D-FD993F967B77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854AF33A-CF4B-4215-A0D6-3D864A02BB81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
