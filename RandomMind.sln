@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOutInDemo", "TOutInDemo\TO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDemo", "ClassDemo\ClassDemo.csproj", "{4FBEF040-2CCE-4903-B20D-FD993F967B77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverrideDemo", "OperatorOverrideDemo\OperatorOverrideDemo.csproj", "{09B2AC43-28A5-4954-B128-6B86AC6580C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FBEF040-2CCE-4903-B20D-FD993F967B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B2AC43-28A5-4954-B128-6B86AC6580C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B2AC43-28A5-4954-B128-6B86AC6580C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B2AC43-28A5-4954-B128-6B86AC6580C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B2AC43-28A5-4954-B128-6B86AC6580C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
