@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverrideDemo", "Ope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessControlDemo", "ProcessControlDemo\ProcessControlDemo.csproj", "{983C27B5-A3E1-4DAA-A11E-3B64F4274090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectDemo", "DynamicObjectDemo\DynamicObjectDemo.csproj", "{C7D8F87F-EB11-4CD6-8B44-338072B42DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{983C27B5-A3E1-4DAA-A11E-3B64F4274090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{983C27B5-A3E1-4DAA-A11E-3B64F4274090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{983C27B5-A3E1-4DAA-A11E-3B64F4274090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D8F87F-EB11-4CD6-8B44-338072B42DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D8F87F-EB11-4CD6-8B44-338072B42DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D8F87F-EB11-4CD6-8B44-338072B42DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D8F87F-EB11-4CD6-8B44-338072B42DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
